@@ -524,3 +524,256 @@ footer {
 .fa-threads:hover {
   color: #35465d;
 }
+
+/* Responsive Design for Small Devices*/
+@media screen and (max-width: 576px) {
+  .logo-menu,
+  .choose-your-destination,
+  .our-popular-tours,
+  .simple-perfect-place,
+  .review-content-container,
+  .why-choose-us,
+  .choose-your-destination-content-container,
+  .newsletter-section,
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .logo > h2 {
+    font-size: 20px;
+  }
+
+  .menu {
+    /* flex-direction: column; */
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .review-content-container,
+  .first-row,
+  .third-row,
+  .our-popular-tours,
+  .simple-perfect-place,
+  .newsletter-section {
+    flex-direction: column;
+  }
+
+  .footer p,
+  .choose-your-destination-description,
+  .why-choose-us-description,
+  .why-choose-us-content p {
+    font-size: 14px;
+  }
+  .review-title,
+  .why-choose-us-title,
+  .why-choose-us-content h4,
+  .choose-your-destination-title,
+  .our-popular-tours-title,
+  .simple-perfect-place-title {
+    font-size: 20px;
+  }
+
+  .why-choose-us-content {
+    width: 75%;
+  }
+
+  .choose-your-destination-content-container .second-row {
+    grid-template-columns: 1fr;
+  }
+  .first-row-first-location img,
+  .first-row-second-location img,
+  .second-row-first-location img,
+  .second-row-second-location img,
+  .second-row-third-location img,
+  .third-row-first-location img,
+  .third-row-second-location img,
+  .newsletter-right img {
+    width: 100%;
+    height: auto;
+  }
+  .first-row-first-location h3,
+  .first-row-second-location h3,
+  .second-row-first-location h3,
+  .second-row-second-location h3,
+  .second-row-third-location h3,
+  .third-row-first-location h3,
+  .third-row-second-location h3 {
+    font-size: 20px;
+  }
+  .our-popular-tours-left,
+  .our-popular-tours-right,
+  .simple-perfect-place-left,
+  .simple-perfect-place-right,
+  .newsletter-right {
+    width: 100%;
+  }
+  .newsletter-left {
+    width: 88%;
+  }
+  .our-popular-tours-left p,
+  .simple-perfect-place-left p,
+  .our-popular-tours-left ul > li,
+  .simple-perfect-place-left ul > li {
+    font-size: 14px;
+  }
+  .our-popular-tours-list li,
+  .simple-perfect-place-list li {
+    margin-left: 0;
+    margin-bottom: 5px;
+  }
+  .our-popular-tours-right img,
+  .simple-perfect-place-right img {
+    width: 100%;
+  }
+  .newsletter-right {
+    text-align: center;
+  }
+  .newsletter-left {
+    padding: 20px;
+  }
+  .best-travel-badge h4 {
+    font-size: 18px;
+  }
+  .best-travel-badge h3 {
+    font-size: 24px;
+  }
+  .hero-banner {
+    width: 85%;
+  }
+  .hero-banner-title {
+    font-size: 22px;
+  }
+  .hero-banner-description {
+    font-size: 14px;
+  }
+  .hero-banner-form {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .hero-banner-form input {
+    width: 85%;
+  }
+  .hero-input-field,
+  .hero-banner-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Medium Devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .logo-menu,
+  .review-content-container,
+  .choose-your-destination,
+  .our-popular-tours,
+  .simple-perfect-place,
+  .footer {
+    padding: 20px 10px;
+  }
+
+  .logo > h2 {
+    font-size: 24px;
+  }
+
+  .menu > li > a {
+    font-size: 16px;
+  }
+
+  .review-title {
+    font-size: 30px;
+  }
+  .review-content-container,
+  .first-row,
+  .third-row,
+  .our-popular-tours,
+  .simple-perfect-place,
+  .newsletter-section {
+    flex-direction: column;
+  }
+  .choose-your-destination-content-container .second-row {
+    grid-template-columns: 1fr;
+  }
+  .first-row-first-location img,
+  .first-row-second-location img,
+  .second-row-first-location img,
+  .second-row-second-location img,
+  .second-row-third-location img,
+  .third-row-first-location img,
+  .third-row-second-location img {
+    width: 100%;
+  }
+
+  .our-popular-tours-left,
+  .our-popular-tours-right,
+  .simple-perfect-place-left,
+  .simple-perfect-place-right,
+  .newsletter-left,
+  .newsletter-right {
+    width: 100%;
+  }
+
+  .our-popular-tours-left p,
+  .our-popular-tours-left ul > li,
+  .simple-perfect-place-left p,
+  .simple-perfect-place-left ul > li {
+    font-size: 14px;
+  }
+  .our-popular-tours-list li,
+  .simple-perfect-place-list li {
+    margin-left: 20px;
+    margin-bottom: 5px;
+  }
+  .our-popular-tours-right img,
+  .simple-perfect-place-right img {
+    width: 100%;
+  }
+  .hero-banner {
+    width: 85%;
+  }
+  .hero-banner-title,
+  .our-popular-tours-title,
+  .simple-perfect-place-title,
+  .choose-your-destination-title,
+  .why-choose-us-title,
+  .review-title {
+    font-size: 24px;
+  }
+  .hero-banner-description {
+    font-size: 16px;
+  }
+
+  .hero-banner-form {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .hero-banner-form input {
+    width: 93%;
+  }
+  .hero-input-field,
+  .hero-banner-form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .choose-your-destination,
+  .our-popular-tours,
+  .simple-perfect-place,
+  .hero-banner,
+  .newsletter-section {
+    padding: 10px 20px;
+  }
+  .hero-banner {
+    width: 95%;
+  }
+  .our-popular-tours-right img,
+  .simple-perfect-place-right img {
+    width: 100%;
+  }
+  .what-they-are-saying {
+    padding: 100px 20px;
+  }
+}

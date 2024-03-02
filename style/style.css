@@ -667,10 +667,10 @@ footer {
     padding: 20px;
   }
   .best-travel-badge h4 {
-    font-size: 18px;
+    font-size: 15px;
   }
   .best-travel-badge h3 {
-    font-size: 24px;
+    font-size: 18px;
   }
   .hero-banner {
     width: 85%;
@@ -693,6 +693,9 @@ footer {
   .hero-banner-form button {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .video-text {
+    font-size: 20px;
   }
 }
 

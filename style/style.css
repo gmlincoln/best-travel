@@ -183,28 +183,29 @@ body {
 .simple-perfect-place-right {
   width: 100%;
 }
-
-.simple-perfect-place-right {
-  display: flex;
-  gap: 20px;
+.video-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-.simple-perfect-place-right div {
+.video-one {
   width: 100%;
   height: 100%;
   border-radius: 10px;
-}
-.video-one,
-.video-four {
-  width: 100%;
-  border-radius: 10px;
   padding: 5px;
 }
-
-.video-three,
-.video-two {
+.video-text {
+  position: absolute;
+  height: 100%;
   width: 100%;
-  border-radius: 10px;
-  padding: 5px;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 24px;
 }
 
 .our-popular-tours-title,
@@ -217,11 +218,16 @@ body {
 }
 .our-popular-tours-left p,
 .our-popular-tours-list,
-.simple-perfect-place-left p,
-.simple-perfect-place-list {
+.simple-perfect-place-left p {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
+  line-height: 26px;
+}
+.simple-perfect-place-list {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
   line-height: 26px;
 }
 .our-popular-tours-list,
@@ -783,6 +789,9 @@ footer {
   .hero-banner-form button {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .video-text {
+    font-size: 20px;
   }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px) {

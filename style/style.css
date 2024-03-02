@@ -175,10 +175,36 @@ body {
   gap: 30px;
 }
 .our-popular-tours-left,
-.our-popular-tours-right,
+.our-popular-tours-right {
+  width: 50%;
+}
+
 .simple-perfect-place-left,
 .simple-perfect-place-right {
-  width: 50%;
+  width: 100%;
+}
+
+.simple-perfect-place-right {
+  display: flex;
+  gap: 20px;
+}
+.simple-perfect-place-right div {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.video-one,
+.video-four {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.video-three,
+.video-two {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
 }
 
 .our-popular-tours-title,

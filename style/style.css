@@ -470,3 +470,57 @@ body {
   font-size: 32px;
   font-weight: 800;
 }
+
+/* Footer Section Style */
+footer {
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-logo {
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer > p {
+  max-width: 750px;
+  margin: 0 auto;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.copyright {
+  font-weight: 300;
+  margin-top: 50px;
+}
+
+.footer > hr {
+  border: 1px solid #a0a0a2;
+}
+
+.social-media {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.social-media i {
+  font-size: 24px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-instagram:hover {
+  color: #c32aa3;
+}
+
+.fa-threads:hover {
+  color: #35465d;
+}

@@ -642,6 +642,7 @@ footer {
   }
   .hero-banner {
     width: 85%;
+    padding: 35px 10px;
   }
   .hero-banner-title {
     font-size: 22px;
@@ -758,7 +759,7 @@ footer {
     margin-bottom: 10px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 993px) and (max-width: 1024px) {
   .choose-your-destination,
   .our-popular-tours,
   .simple-perfect-place,

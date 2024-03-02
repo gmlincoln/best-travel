@@ -164,3 +164,46 @@ body {
   );
   z-index: -1;
 }
+
+/* Our Popular Tours and Simple Perfect Place Section */
+.simple-perfect-place {
+  margin: 100px auto;
+}
+.our-popular-tours,
+.simple-perfect-place {
+  display: flex;
+  gap: 30px;
+}
+.our-popular-tours-left,
+.our-popular-tours-right,
+.simple-perfect-place-left,
+.simple-perfect-place-right {
+  width: 50%;
+}
+
+.our-popular-tours-title,
+.simple-perfect-place-title {
+  margin-bottom: 24px;
+}
+.our-popular-tours-left p,
+.simple-perfect-place-left p {
+  margin-bottom: 34px;
+}
+.our-popular-tours-left p,
+.our-popular-tours-list,
+.simple-perfect-place-left p,
+.simple-perfect-place-list {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.our-popular-tours-list,
+.simple-perfect-place-list {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.our-popular-tours-list li,
+.simple-perfect-place-list li {
+  margin-bottom: 14px;
+}

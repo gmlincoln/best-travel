@@ -389,6 +389,92 @@ body {
   background: rgba(41, 206, 246, 0.05);
 }
 
+/* Deals and Discount */
+.deals-discounts {
+  margin: 100px auto;
+}
+.deals-discounts-top {
+  margin-bottom: 45px;
+  text-align: center;
+}
+.deals-discounts-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.deals-discounts-description {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.deals-discounts-content-first {
+  background-image: url("../images/Group\ 39.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 55px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: 16px;
+  margin-bottom: 25px;
+}
+.deals-discounts-content-second {
+  background-image: url("../images/Rectange\ 1-2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 55px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 16px;
+}
+.deals-discounts-content-wrapper {
+  padding: 50px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 40%;
+}
+.deals-discount-content-top {
+  display: flex;
+  gap: 24px;
+}
+.deals-discount-content-top p i {
+  color: #ff5400;
+  margin-right: 8px;
+}
+.deals-discount-content-top p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.deals-discounts-content-title {
+  margin-top: 24px;
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.deals-discounts-content-description {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 16px auto;
+}
+.deals-discounts-price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
 /* Review or What They are Saying Section Style */
 .review-content-container {
   display: flex;
@@ -567,6 +653,7 @@ footer {
   .why-choose-us,
   .choose-your-destination-content-container,
   .newsletter-section,
+  .deals-discounts-content-container,
   .footer {
     padding: 20px 10px;
   }
@@ -596,7 +683,8 @@ footer {
   .footer p,
   .choose-your-destination-description,
   .why-choose-us-description,
-  .why-choose-us-content p {
+  .why-choose-us-content p,
+  .deals-discounts-description {
     font-size: 14px;
   }
   .review-title,
@@ -604,7 +692,8 @@ footer {
   .why-choose-us-content h4,
   .choose-your-destination-title,
   .our-popular-tours-title,
-  .simple-perfect-place-title {
+  .simple-perfect-place-title,
+  .deals-discounts-title {
     font-size: 20px;
   }
 
@@ -697,6 +786,27 @@ footer {
   .video-text {
     font-size: 20px;
   }
+  .deals-discounts-content-wrapper {
+    width: 90%;
+    height: 40%;
+  }
+
+  .book-now-btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .deals-discounts-price {
+    font-size: 16px;
+  }
+  .deals-discounts-content-title {
+    font-size: 18px;
+  }
+  .deals-discount-content-top {
+    flex-wrap: wrap;
+  }
+  .deals-discounts-content-description {
+    font-size: 14px;
+  }
 }
 
 /* Medium Devices */
@@ -774,7 +884,8 @@ footer {
   .simple-perfect-place-title,
   .choose-your-destination-title,
   .why-choose-us-title,
-  .review-title {
+  .review-title,
+  .deals-discounts-title {
     font-size: 24px;
   }
   .hero-banner-description {
@@ -796,6 +907,9 @@ footer {
   .video-text {
     font-size: 20px;
   }
+  .deals-discounts-content-container {
+    padding: 10px;
+  }
 }
 @media screen and (min-width: 993px) and (max-width: 1024px) {
   .choose-your-destination,
@@ -804,6 +918,9 @@ footer {
   .hero-banner,
   .newsletter-section {
     padding: 10px 20px;
+  }
+  .deals-discounts-content-container {
+    padding: 10px;
   }
   .hero-banner {
     width: 95%;
